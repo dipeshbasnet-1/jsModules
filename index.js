@@ -5,22 +5,22 @@
 
 // console.log(check)
 
-import { addProduct, removeProduct, isCartEmpty } from './cart.js'
+// import { addProduct, removeProduct, isCartEmpty } from './cart.js'
 
-// //Application code
+// Application code
 // const cart = [];
 
-addProduct(cart, {
-    name: "Book",
-    price: 20
-});
+// addProduct(cart, {
+//     name: "Book",
+//     price: 20
+// });
 
-addProduct(cart, {
-    name: "Pen", 
-    price: 5
-});
+// addProduct(cart, {
+//     name: "Pen", 
+//     price: 5
+// });
 
-// console.log(cart)
+// // console.log(cart)
 
 // if (true) {
 //   async function importData() {
@@ -31,4 +31,10 @@ addProduct(cart, {
 //   importData()
 // }
 
-checkout(cart);
+// checkout(cart);
+
+
+import { addProduct, removeProduct, isCartEmpty } from './cart.js'
+import chalk from 'chalk'
+
+
